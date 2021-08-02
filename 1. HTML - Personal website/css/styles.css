@@ -1,10 +1,12 @@
 body {
   background-color: #aaf0d1;
+  font-family: monospace;
+  font-size: 1em;
 }
 
 hr {
   border-style: none;
-  border-top-style: outset;
+  border-top-style: dotted;
   width: 65%;
   border-color: #c9ffe5;
   border-width: 3px;
@@ -12,4 +14,18 @@ hr {
 
 h1, h2 {
   color: #008080;
+}
+
+.top-container {
+  position: relative;
+  z-index: 1;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background: blue;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 300px;
 }
